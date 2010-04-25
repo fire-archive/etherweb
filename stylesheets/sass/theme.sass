@@ -1,0 +1,76 @@
+=font_size (!pixel_height)
+  font_size: ((!pixel_height / 16px ) * 1em)
+
+a
+  color: grey
+  font-weight: bold
+  text-decoration: none
+
+a:visited
+  color: #666688
+
+a:hover
+  color: blue
+
+#header
+  overflow: hidden
+  margin:
+    top: 15px
+    bottom: 15px
+
+  #title
+    a:visited
+      color: black
+    a:hover
+      color: black
+    #etherpad-logo
+      width: 210px 
+      height: 80px
+      background: url('/images/title.png') no-repeat
+      span
+        display: block
+        width: 0
+        height: 0
+        overflow: hidden
+
+  #nav
+    margin-top: 10px
+    -moz-border-radius: 6pt
+    -webkit-border-radius: 6pt
+    background: #eee
+    ul, li
+      display: inline
+      margin: 0
+      text-size: 150%
+    a
+      color: black
+      zoom: 1
+      display: -moz-inline-stack 
+      display: inline-block
+      *display: inline
+      margin:
+        left: 18px
+      padding:
+        left: 8px
+        right: 8px
+        top: 6px
+        bottom: 6px
+
+#features, #etherpad-explain
+  h2
+    margin-bottom: 10px
+  h3
+    margin:
+      top: 10px
+      bottom: 4px
+
+#features
+  ul
+    list-style: none
+    margin-left: -30px
+
+#etherpad-explain
+  margin-top: 10px
+
+#footer
+  text-align: center

@@ -1,0 +1,41 @@
+@import compass/reset
+@import compass/utilities/general/clearfix
+@import 960/grid
+@import text
+@import theme
+
+#container
+  +grid-container
+  +clearfix
+  
+  #header
+    #title
+      +grid(4,12)
+      +alpha
+      
+    #nav
+      +grid(8,12)
+      +omega
+
+  #content
+    #overview
+      +grid(7,12)
+
+    #features
+      +grid(5,12)
+  
+    #etherpad-explain
+      +grid(12,12)
+      #column1
+        +grid(4,12)
+        +alpha
+    
+      #column2
+        +grid(4,12)
+    
+      #column3
+        +grid(4,12)
+        +omega
+
+  #footer
+    +grid(12,12)
