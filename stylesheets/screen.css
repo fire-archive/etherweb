@@ -1,0 +1,80 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline; }
+
+*:focus { outline: 0; }
+
+body { line-height: 1em; color: black; background: #fff; }
+
+ol, ul { list-style: none; }
+
+/* tables still need 'cellspacing="0"' in the markup */
+table { border-collapse: separate; border-spacing: 0; vertical-align: middle; }
+
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+
+q, blockquote { quotes: "" ""; }
+q:before, q:after, blockquote:before, blockquote:after { content: ""; }
+
+img a { border: none; }
+
+/* 960 Grid System ~ Text CSS. Learn more ~ http://960.gs/ Licensed under GPL and MIT. */
+body { font: 13px/1.5 Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif; }
+
+a:focus { outline: 1px dotted invert; }
+
+hr { border-color: #ccc; border-style: solid; border-width: 1px 0 0; clear: both; height: 0; }
+
+h1 { font-size: 25px; }
+
+h2 { font-size: 23px; }
+
+h3 { font-size: 21px; }
+
+h4 { font-size: 19px; }
+
+h5 { font-size: 17px; }
+
+h6 { font-size: 15px; }
+
+ol { list-style: decimal; }
+
+ul { list-style: square; }
+
+li { margin-left: 30px; }
+
+p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset { margin-bottom: 20px; }
+
+a { color: grey; font-weight: bold; text-decoration: none; }
+
+a:visited { color: #666688; }
+
+a:hover { color: blue; }
+
+#header { overflow: hidden; margin-top: 15px; margin-bottom: 15px; }
+#header #title a:visited { color: black; }
+#header #title a:hover { color: black; }
+#header #title #etherpad-logo { width: 210px; height: 80px; background: url('../images/title.png') no-repeat; }
+#header #title #etherpad-logo span { display: block; width: 0; height: 0; overflow: hidden; }
+#header #nav { margin-top: 10px; -moz-border-radius: 6pt; -webkit-border-radius: 6pt; background: #eee; }
+#header #nav ul, #header #nav li { display: inline; margin: 0; text-size: 150%; }
+#header #nav a { color: black; zoom: 1; display: -moz-inline-stack; display: inline-block; *display: inline; margin-left: 18px; padding-left: 8px; padding-right: 8px; padding-top: 6px; padding-bottom: 6px; }
+
+#features h2, #etherpad-explain h2 { margin-bottom: 10px; }
+#features h3, #etherpad-explain h3 { margin-top: 10px; margin-bottom: 4px; }
+
+#features ul { list-style: none; margin-left: -30px; }
+
+#etherpad-explain { margin-top: 10px; }
+
+#footer { text-align: center; }
+
+#container { margin-left: auto; margin-right: auto; width: 960px; overflow: hidden; display: inline-block; }
+#container { display: block; }
+#container #header #title { display: inline; float: left; margin-left: 10px; margin-right: 10px; width: 300px; margin-left: 0; }
+#container #header #nav { display: inline; float: left; margin-left: 10px; margin-right: 10px; width: 620px; margin-right: 0; }
+#container #content #overview { display: inline; float: left; margin-left: 10px; margin-right: 10px; width: 540px; }
+#container #content #features { display: inline; float: left; margin-left: 10px; margin-right: 10px; width: 380px; }
+#container #content #etherpad-explain { display: inline; float: left; margin-left: 10px; margin-right: 10px; width: 940px; }
+#container #content #etherpad-explain #column1 { display: inline; float: left; margin-left: 10px; margin-right: 10px; width: 300px; margin-left: 0; }
+#container #content #etherpad-explain #column2 { display: inline; float: left; margin-left: 10px; margin-right: 10px; width: 300px; }
+#container #content #etherpad-explain #column3 { display: inline; float: left; margin-left: 10px; margin-right: 10px; width: 300px; margin-right: 0; }
+#container #footer { display: inline; float: left; margin-left: 10px; margin-right: 10px; width: 940px; }
