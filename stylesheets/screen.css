@@ -54,8 +54,7 @@ ul { list-style-type: disc; }
 #header { overflow: hidden; margin-top: 5px; margin-bottom: 10px; }
 #header #title a:visited { color: black; }
 #header #title a:hover { color: black; }
-#header #title #etherpad-logo { width: 210px; height: 80px; background: url('../images/title.png') no-repeat; }
-#header #title #etherpad-logo span { display: block; width: 0; height: 0; overflow: hidden; }
+#header #title h1, #header #title a { width: 210px; height: 80px; display: block; background: url('../images/title.png') no-repeat; text-indent: -9999px; }
 #header #nav { margin-top: 10px; -moz-border-radius: 6pt; -webkit-border-radius: 6pt; background: #eee; }
 #header #nav ul, #header #nav li { display: inline; margin: 0; text-size: 150%; }
 #header #nav a { color: black; zoom: 1; display: -moz-inline-stack; display: inline-block; *display: inline; margin-left: 18px; padding-left: 8px; padding-right: 8px; padding-top: 6px; padding-bottom: 6px; }
