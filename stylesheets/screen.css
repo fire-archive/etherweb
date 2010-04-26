@@ -49,7 +49,9 @@ a:visited { color: #666688; }
 
 a:hover { color: blue; }
 
-#header { overflow: hidden; margin-top: 15px; margin-bottom: 15px; }
+ul { list-style-type: disc; }
+
+#header { overflow: hidden; margin-top: 5px; margin-bottom: 10px; }
 #header #title a:visited { color: black; }
 #header #title a:hover { color: black; }
 #header #title #etherpad-logo { width: 210px; height: 80px; background: url('../images/title.png') no-repeat; }
@@ -58,7 +60,7 @@ a:hover { color: blue; }
 #header #nav ul, #header #nav li { display: inline; margin: 0; text-size: 150%; }
 #header #nav a { color: black; zoom: 1; display: -moz-inline-stack; display: inline-block; *display: inline; margin-left: 18px; padding-left: 8px; padding-right: 8px; padding-top: 6px; padding-bottom: 6px; }
 
-#features h2, #etherpad-explain h2 { margin-bottom: 10px; }
+#features h2, #etherpad-explain h2 { margin-bottom: 18px; }
 #features h3, #etherpad-explain h3 { margin-top: 10px; margin-bottom: 4px; }
 
 #features ul { list-style: none; margin-left: -30px; }
