@@ -71,12 +71,13 @@ ul { list-style-type: disc; }
 
 #container { margin-left: auto; margin-right: auto; width: 960px; overflow: hidden; display: inline-block; }
 #container { display: block; }
-#container #header #title { display: inline; float: left; margin-left: 10px; margin-right: 10px; width: 300px; margin-left: 0; }
-#container #header #nav { display: inline; float: left; margin-left: 10px; margin-right: 10px; width: 620px; margin-right: 0; }
-#container #content #overview { display: inline; float: left; margin-left: 10px; margin-right: 10px; width: 540px; }
-#container #content #features { display: inline; float: left; margin-left: 10px; margin-right: 10px; width: 380px; }
-#container #content #etherpad-explain { display: inline; float: left; margin-left: 10px; margin-right: 10px; width: 940px; }
-#container #content #etherpad-explain #column1 { display: inline; float: left; margin-left: 10px; margin-right: 10px; width: 300px; margin-left: 0; }
-#container #content #etherpad-explain #column2 { display: inline; float: left; margin-left: 10px; margin-right: 10px; width: 300px; }
-#container #content #etherpad-explain #column3 { display: inline; float: left; margin-left: 10px; margin-right: 10px; width: 300px; margin-right: 0; }
+#container #header #title { display: inline; float: left; margin-left: 10px; margin-right: 10px; width: 300px; }
+#container #header #nav { display: inline; float: left; margin-left: 10px; margin-right: 10px; width: 620px; }
+#container #content { display: inline; float: left; margin-left: 10px; margin-right: 10px; width: 940px; }
+#container #content #overview { display: inline; float: left; margin-left: 10px; margin-right: 10px; width: 540px; margin-left: 0; }
+#container #content #features { display: inline; float: left; margin-left: 10px; margin-right: 10px; width: 380px; margin-right: 0; }
+#container #etherpad-explain { display: inline; float: left; margin-left: 10px; margin-right: 10px; width: 940px; margin-left: 0; }
+#container #etherpad-explain #column1 { display: inline; float: left; margin-left: 10px; margin-right: 10px; width: 300px; margin-left: 0; }
+#container #etherpad-explain #column2 { display: inline; float: left; margin-left: 10px; margin-right: 10px; width: 300px; }
+#container #etherpad-explain #column3 { display: inline; float: left; margin-left: 10px; margin-right: 10px; width: 300px; margin-right: 0; margin-right: 0; }
 #container #footer { display: inline; float: left; margin-left: 10px; margin-right: 10px; width: 940px; }
